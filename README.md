@@ -8,14 +8,17 @@ This repository provides an implementation of the Lattice based post-quantum cry
 
 To create a virtual environment and install the necessary packages, open a terminal or command prompt, navigate to the project directory, and run the following commands:
 
-- Create Environment
+- Create Virtual Environment
+
 `python -m venv env`
 
-- Activate Environment
+- Activate Virtual Environment
 
     On Mac, use: `source env/bin/activate`
 
     On Windows, use: `.\env\Scripts\activate`
+
+- Install Required Python Packages
 
 `pip install -r requirements.txt`
 
