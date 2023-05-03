@@ -1,3 +1,6 @@
 .env
 /env
 /venv
+
+private_key.json
+public_key.json

@@ -1,6 +1,6 @@
 # Python Post Quantum Cryptography NTRU Algorithm
 
-This repository provides an implementation of the NTRU post-quantum cryptographic algorithm in Python. *The NTRU algorithm is resistant to attacks from quantum computers*, providing a secure solution for future-proof encryption.
+This repository provides an implementation of the Lattice based post-quantum cryptographic algorithm in Python. *The Lattice LWE algorithm is resistant to attacks from quantum computers*, providing a secure solution for future-proof encryption.
 
 ## Getting Started
 
@@ -8,20 +8,25 @@ This repository provides an implementation of the NTRU post-quantum cryptographi
 
 To create a virtual environment and install the necessary packages, open a terminal or command prompt, navigate to the project directory, and run the following commands:
 
+- Create Environment
 `python -m venv env`
 
-`source env/bin/activate  # On Windows, use: env\Scripts\activate`
+- Activaate Environment
+On Mac, use: `source env/bin/activate`
 
+On Windows, use: `.\env\Scripts\activate`
 
 `pip install -r requirements.txt`
 
-### 2. Run the CreateKeys.py file
 
-To generate the public and private encryption keys, run the **CreateKeys.py** script:
+### 2. Generate Public and Private Keys
 
-`python CreateKeys.py`
+To generate the public and private encryption keys, run the **GenerateKeys.py** script:
 
-### 3. Test the encryption keys using
+`python GenerateKeys.py`
+
+
+### 3. Test the Encryption Keys
 
 To test the functionality of the generated encryption keys, run the **TestKeys.py** script:
 
