@@ -11,10 +11,11 @@ To create a virtual environment and install the necessary packages, open a termi
 - Create Environment
 `python -m venv env`
 
-- Activaate Environment
-On Mac, use: `source env/bin/activate`
+- Activate Environment
 
-On Windows, use: `.\env\Scripts\activate`
+    On Mac, use: `source env/bin/activate`
+
+    On Windows, use: `.\env\Scripts\activate`
 
 `pip install -r requirements.txt`
 
