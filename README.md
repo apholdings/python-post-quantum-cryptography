@@ -7,6 +7,7 @@ This repository provides an implementation of the NTRU post-quantum cryptographi
 
 ### 1. Create virtual environment and Install required packages:
 `python -m venv env`
+
 `pip install -r requirements.txt`
 
 ### 2. Run the CreateKeys.py file
